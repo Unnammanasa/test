@@ -9,7 +9,7 @@ app=`echo $App_name |tr ',' ' '`
 echo $app
 DEPPATH="/u01/app/oracle/feb/wl12c/jenkins/scripts"
 APPATH="/u01/app/oracle/feb/wl12c/jenkins/git_practice/test"
-CLONEPATH="/u01/app/oracle/feb/wl12c/jenkins/git-practice"
+CLONEPATH="/u01/app/oracle/feb/wl12c/jenkins/git_practice"
 cd  $CLONEPATH
 git clone git@github.com:Unnammanasa/test.git
 WLST_HOME="/u01/app/oracle/feb/wl12c/weblogic/oracle_common/common/bin"
